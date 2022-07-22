@@ -203,6 +203,14 @@ form h2 {
   padding: 12px 24px;
 }
 
+#thanks-message {
+  max-width: 500px;
+  margin: 60px auto;
+  padding: 36px;
+  text-align: center;
+  border: 5px solid var(--citron);
+}
+
 /* FOOTER */
 footer {
   position: sticky;
