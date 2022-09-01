@@ -31,7 +31,7 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  padding: 8px 10%;
+  padding: 8px 5%;
 }
 
 .logo {
@@ -156,27 +156,78 @@ main {
 }
 
 /* PROJECTS */
+
+#projects-container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+#projects-container h2 {
+  border-bottom: 5px solid var(--citron);
+  display: inline-block;
+  padding-bottom: 8px;
+  margin: 0 10px 16px;
+  box-sizing: border-box;
+}
+
 .projects {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
 }
 
 .project-card {
-  width: 300px;
+  width: 280px;
+  min-height: 420px;
   border-radius: 5px;
   background-color: white;
   color: #222222;
   padding: 16px;
   text-align: center;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* box-shadow: 0px 7px 29px 0px rgba(0, 0, 0, 1); */
+  box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
 }
 
-.project-icon {
-  color: var(--citron);
-  margin: 24px 0;
+.project-img {
+  width: 95%;
+  margin: 20px auto;
+  height: 150px;
+  background-position: center top;
+  background-size: cover;
+  /* border: 5px solid var(--citron); */
+  box-shadow: rgba(0, 0, 0, .3) 0px 5px 15px;
+
 }
+
+#p1 {
+  background-image: url('../images/booklinesinker.png');
+}
+
+#p2 {
+  background-image: url('../images/jobinit.png');
+}
+
+#p3 {
+  background-image: url('../images/directory.png');
+}
+
+#p4 {
+  background-image: url('../images/ss.png');
+}
+
+#p5 {
+  background-image: url('../images/burger.png');
+}
+
+#p6 {
+  background-image: url('../images/weather.png');
+}
+
 
 .project-btns {
   display: flex;
@@ -191,9 +242,16 @@ main {
   margin: 2.5%;
   padding: 8px 16px;
   background-color: var(--citron);
-  color: white;
+  color: #222222;
   text-align: center;
   border-radius: 5px;
+  border: 1px solid #222222;
+  font-weight: 600;
+}
+
+.project-btns a:hover {
+  background-color: #222222;
+  color: white;
 }
 
 /* CONTACT */

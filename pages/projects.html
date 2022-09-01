@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Patrick+Hand+SC&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Patrick+Hand+SC&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="shortcut icon" href="../assets/images/compwith.png" type="image/x-icon">
     <title>S M I T H</title>
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
+
 <body>
 
     <header>
@@ -26,17 +31,88 @@
         </nav>
     </header>
 
-    <main>
+    <main id="projects-container">
         <h2>P R O J E C T S</h2>
         <div class="projects">
 
             <div class="project-card">
-                <div class="project-icon">* * * * *</div>
-                <h3>Password Generator</h3>
-                <p>Javascript app to produce random password based on user input.</p>
+                <div class="card-content">
+                    <h3>Book, Line & Sinker</h3>
+                    <div id="p1" class="project-img"></div>
+                    <p>Collaborative application built with NodeJS, Express, Handlebars, Sequelize, HTML, CSS, and
+                        Javascript.</p>
+                </div>
                 <div class="project-btns">
-                    <a href="">REPO</a>
-                    <a href="">DEPLOYED</a>
+                    <a href="https://github.com/smithse4/Book-Line-And-Sinker" target="_blank">REPO</a>
+                    <a href="https://bookls.herokuapp.com/library" target="_blank">DEPLOYED</a>
+                </div>
+
+            </div>
+
+            <div class="project-card">
+                <div class="card-content">
+                    <h3>Job Init</h3>
+                    <div id="p2" class="project-img"></div>
+                    
+                    <p>Collaborative job listing aggregator tailored specifically to developer openings -- Full stack
+                        MERN
+                        app, which also utilizes Adzuna's API, Mongoose, and a number of other NPM packages.</p>
+                </div>
+                <div class="project-btns">
+                    <a href="https://github.com/smithse4/job-init" target="_blank">REPO</a>
+                    <a href="https://job-int.herokuapp.com/" target="_blank">DEPLOYED</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="card-content">
+                    <h3>Employee Directory</h3>
+                    <div id="p3" class="project-img"></div>
+                    
+                    <p>Employee Directory created with React with sorting and filtering functionality.</p>
+                </div>
+                <div class="project-btns">
+                    <a href="https://github.com/smithse4/19-user-directory" target="_blank">REPO</a>
+                    <a href="https://stephdirectory.herokuapp.com" target="_blank">DEPLOYED</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="card-content">
+                    <h3>I have a bone to pick</h3>
+                    <div id="p4" class="project-img"></div>
+                    
+                    <p>Anonymous forum using MongoDB as its database and HTML, CSS, and Javascript as the front end.</p>
+                </div>
+                <div class="project-btns">
+                    <a href="https://github.com/smithse4/IHABTP-MongoDB" target="_blank">REPO</a>
+                    <a href="https://ihabtp.herokuapp.com/" target="_blank">DEPLOYED</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="card-content">
+                    <h3>Eat da Burger</h3>
+                    <div id="p5" class="project-img"></div>
+                    
+                    <p>Burger tracker app built with MySQL, Node, Express, Handlebars, and a custom ORM.</p>
+                </div>
+                <div class="project-btns">
+                    <a href="https://github.com/smithse4/13-burger" target="_blank">REPO</a>
+                    <a href="https://stephburger.herokuapp.com/" target="_blank">DEPLOYED</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="card-content">
+                    <h3>All weather, all the time!</h3>
+                    <div id="p6" class="project-img"></div>
+                    
+                    <p>Weather application showing the weekly forecast using the Open Weather Map API</p>
+                </div>
+                <div class="project-btns">
+                    <a href="https://github.com/smithse4/w-dash" target="_blank">REPO</a>
+                    <a href="https://smithse4.github.io/w-dash/" target="_blank">DEPLOYED</a>
                 </div>
             </div>
 
@@ -51,7 +127,8 @@
         </div>
         <div class="copy">&copy; &nbsp; S M I T H &nbsp; 2 0 2 2</div>
     </footer>
-    
+
     <script src="../assets/js/script.js"></script>
 </body>
+
 </html>
